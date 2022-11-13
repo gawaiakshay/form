@@ -69,7 +69,7 @@ button{
 @media only screen and (max-width: 400px) {
     .main {
         position: relative;
-        left: 50px;
+        left: 35px;
        
     }
   }
