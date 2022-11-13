@@ -6,6 +6,7 @@
     
     height: 100vh;
     background-image: linear-gradient(rgb(241,8,241),rgb(100, 9, 92));
+    width: 100%;
 }
 
 .main{
@@ -65,3 +66,10 @@ button{
     text-decoration: none;
     color: deeppink;
 }
+@media only screen and (max-width: 400px) {
+    .main {
+        position: relative;
+        left: 50px;
+       
+    }
+  }
